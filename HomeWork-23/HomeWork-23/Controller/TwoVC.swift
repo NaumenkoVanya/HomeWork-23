@@ -8,7 +8,9 @@
 import UIKit
 
 class TwoVC: UIViewController {
-
+    
+    var nameFood: String?
+    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var stakView: UIStackView!
     

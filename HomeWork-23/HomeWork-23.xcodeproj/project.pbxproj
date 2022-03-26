@@ -66,21 +66,20 @@
 			children = (
 				CA7BAF0127EF9B9C005E0E17 /* Resources */,
 				CA7BAEFF27EF9B16005E0E17 /* Controller */,
-				CA7BAEFD27EF9AEC005E0E17 /* View */,
-				CA7BAF0027EF9B3F005E0E17 /* Support */,
-				CA7BAEF727EF999D005E0E17 /* Info.plist */,
+				CA7BAEFD27EF9AEC005E0E17 /* Views */,
 				CA7BAEFE27EF9B0E005E0E17 /* App */,
+				CA7BAEF727EF999D005E0E17 /* Info.plist */,
 			);
 			path = "HomeWork-23";
 			sourceTree = "<group>";
 		};
-		CA7BAEFD27EF9AEC005E0E17 /* View */ = {
+		CA7BAEFD27EF9AEC005E0E17 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				CA7BAEEF27EF999A005E0E17 /* Main.storyboard */,
 				CA7BAEF427EF999D005E0E17 /* LaunchScreen.storyboard */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		CA7BAEFE27EF9B0E005E0E17 /* App */ = {
@@ -103,17 +102,10 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		CA7BAF0027EF9B3F005E0E17 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				CA7BAEF227EF999D005E0E17 /* Assets.xcassets */,
-			);
-			path = Support;
-			sourceTree = "<group>";
-		};
 		CA7BAF0127EF9B9C005E0E17 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CA7BAEF227EF999D005E0E17 /* Assets.xcassets */,
 				CA504FD327EFADDE00A713C1 /* ResourcesVC.swift */,
 			);
 			path = Resources;
