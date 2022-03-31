@@ -11,22 +11,18 @@ class FerstTVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in _: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return DataSource.food.count
     }
 
@@ -80,13 +76,13 @@ class FerstTVC: UITableViewController {
      }
      */
 
-    
-     // MARK: - Navigation
+    // MARK: - Navigation
 
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-         if let indexPath = tableView.indexPathsForSelectedRows,
-            let twoVC = segue.destination as? TwoVC {
-             twoVC.nameFood = DataSource.food[indexPath.count]
-         }
-     }
+    override func prepare(for segue: UIStoryboardSegue, sender _: Any?) {
+        if let indexPath = tableView.indexPathForSelectedRow,
+           let twoVC = segue.destination as? TwoVC
+        {
+            twoVC.nameFood = DataSource.food[indexPath.row]
+        }
+    }
 }

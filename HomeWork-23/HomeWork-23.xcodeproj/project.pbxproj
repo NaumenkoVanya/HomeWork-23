@@ -64,9 +64,9 @@
 		CA7BAEE827EF999A005E0E17 /* HomeWork-23 */ = {
 			isa = PBXGroup;
 			children = (
-				CA7BAF0127EF9B9C005E0E17 /* Resources */,
-				CA7BAEFF27EF9B16005E0E17 /* Controller */,
+				CA7BAF0127EF9B9C005E0E17 /* Models */,
 				CA7BAEFD27EF9AEC005E0E17 /* Views */,
+				CA7BAEFF27EF9B16005E0E17 /* Controller */,
 				CA7BAEFE27EF9B0E005E0E17 /* App */,
 				CA7BAEF727EF999D005E0E17 /* Info.plist */,
 			);
@@ -102,13 +102,13 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		CA7BAF0127EF9B9C005E0E17 /* Resources */ = {
+		CA7BAF0127EF9B9C005E0E17 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				CA7BAEF227EF999D005E0E17 /* Assets.xcassets */,
 				CA504FD327EFADDE00A713C1 /* ResourcesVC.swift */,
 			);
-			path = Resources;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +341,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -369,6 +370,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
